@@ -32,4 +32,12 @@ public class Carta{
     public void setValor(int valor){
         this.valor=valor;
     }
+
+    @Override
+    public String toString() {
+        if (figura == Figura.NO) {
+            return valor + " de " + palo;
+        }
+        return figura + " de " + palo;
+    }
 }
