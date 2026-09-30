@@ -12,6 +12,11 @@ public class Juego {
         System.out.println("\nMazo barajado:");
         mazo.mostrarCartas();
 
+        //dibujar una carta aletoria del mazo para probar funcionamiento
+        Carta cartaDemo = mazo.getCartas().get(0);
+        System.out.println("\nMostrando carta: " + cartaDemo);
+        Visualizador.carta(cartaDemo, new Posicion(20, 40));
+
         Jugador jugador1=new Jugador("Esteban");
         Jugador jugador2=new Jugador("Vidal");
         ArrayList<Jugador> jugadores=new ArrayList<>();

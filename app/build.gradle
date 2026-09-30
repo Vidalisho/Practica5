@@ -30,7 +30,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'practica6.Main'
+    mainClass = 'practica5.Juego'
 }
 
 test {
